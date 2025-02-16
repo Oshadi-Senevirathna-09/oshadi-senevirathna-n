@@ -422,7 +422,7 @@ export default function Home() {
 
 
       {/* Contact Section */}
-  <section id="contact"  className={`${darkMode ? "bg-gray-90" : "bg-gray-20"}py-16 text-white`}>
+  <section id="contact"  className={`${darkMode ? "bg-gray-20" : "bg-gray-90"}py-16 text-white`}>
   <div className="max-w-7xl mx-auto px-6">
     {/* Title Section */}
     <h2 className={`mb-2 ${darkMode ? "text-[#38534f]" : "text-violet-500"} font`}>Contact</h2>
