@@ -49,7 +49,7 @@ export default function Navbar() {
 
         <button 
           onClick={() => setDarkMode(!darkMode)} 
-          className="text-gray-700 dark:text-gray-300 text-2xl focus:outline-none"
+          className="text-black dark:text-white text-2xl focus:outline-none"
         >
           {darkMode ? <FaSun /> : <FaMoon />}
         </button>

@@ -355,10 +355,10 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className={`${darkMode ? "bg-gray-90" : "bg-gray-20"}py-20 `} >
+      <section id="projects" className={`${darkMode ? "bg-gray-90" : "bg-gray-10"} `} >
       <div className="px-6 mx-auto max-w-7xl">
       <h2 className={`mb-2 ${darkMode ? "text-[#38534f]" : "text-violet-500"} font`}>PROJECTS</h2>
-      <h1 className={`mt-2 ${darkMode ? "text-white" : "text-black"} text-4xl font-bold`}>What I did</h1>
+      <h1 className={`mt-2 ${darkMode ? "text-white" : "text-black"} text-4xl font-bold`}>What I did</h1><br/><br/>
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, idx) => (
             <div
@@ -417,7 +417,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-</section>
+</section><br/><br/>
 
 
 
@@ -437,7 +437,7 @@ export default function Home() {
     {/* Contact Card */}
     <div className="flex justify-center space-x-10">
       
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg w-full md:w-96 p-8">
+      <div className={`${darkMode ? "bg-white" : "bg-gray-800"} rounded-lg shadow-lg w-full md:w-96 p-8`}>
         <div className="flex justify-center mb-6">
           <img 
             src="./cont.jpg" 
