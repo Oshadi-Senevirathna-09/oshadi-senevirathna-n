@@ -341,7 +341,7 @@ export default function Home() {
       
         <div className="px-6 mx-auto max-w-7xl">
         <h2 className={`mb-2 ${darkMode ? "text-[#38534f]" : "text-violet-500"} font`}>SKILLS</h2>
-          <h1 className={`mb-12 ${darkMode ? "text-white" : "text-black"} text-4xl font-bold text-gray-900 dark:text-white`}>What I can do</h1>
+          <h1 className={`mt-2 ${darkMode ? "text-white" : "text-black"} text-4xl font-bold`}>What I can do</h1>
           
           <div className="flex flex-wrap justify-center gap-4">
             {skills.map((skill) => (
