@@ -15,9 +15,9 @@ export default function Navbar() {
 
   return (
     
-      <nav className={`${darkMode ? "bg-gray-900" : "bg-gray-200"} fixed top-0 left-0 right-0 z-50`}>
+      <nav className={`${darkMode ? "bg-gray-800" : "bg-gray-200"} fixed top-0 left-0 right-0 z-50 shadow-md`}>
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
-        <h1 className="text-xl font-bold text-gray-900 dark:text-white">Oshadi Senevirathna</h1>
+        <h1 className="text-xl font-bold text-gray-1000 dark:text-white">Oshadi Senevirathna</h1>
         
        
 <ul className={`${darkMode ? "text-gray-1000" : "text-gray-1000"} hidden md:flex space-x-10 text-lg font-medium`}>
