@@ -437,7 +437,7 @@ export default function Home() {
     {/* Contact Card */}
     <div className="flex justify-center space-x-10">
       
-      <div className={`${darkMode ? "bg-gray-90" : "bg-gray-100"} rounded-lg shadow-lg w-full md:w-96 p-8`}>
+      <div className={`${darkMode ? "bg-gray-10" : "bg-gray-100"} rounded-lg shadow-lg w-full md:w-96 p-8`}>
         <div className="flex justify-center mb-6">
           <img 
             src="./cont.jpg" 
@@ -446,10 +446,10 @@ export default function Home() {
           />
         </div>
 
-        <h2 className="text-3xl font-semibold text-gray-800 dark:text-white text-center mb-4">
+        <h2 className="text-3xl font-semibold text-black dark:text-white text-center mb-4">
           Oshadi Senevirathna
         </h2>
-        <p className="text-gray-600 dark:text-gray-300 text-center mb-6">
+        <p className="text-black dark:text-gray-300 text-center mb-6">
           I'm looking forward to connecting with professionals and discussing new opportunities. Whether it’s about collaboration, technology, or innovative projects, let’s talk!
         </p>
 
