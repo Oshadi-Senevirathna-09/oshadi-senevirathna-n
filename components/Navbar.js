@@ -20,7 +20,7 @@ export default function Navbar() {
         <h1 className="text-xl font-bold text-gray-900 dark:text-white">Oshadi Senevirathna</h1>
         
        
-<ul className="hidden md:flex space-x-10 text-gray-1000 dark:text-gray-1000 text-lg font-medium">
+<ul className={`${darkMode ? "text-gray-1000" : "text-gray-1000"} hidden md:flex space-x-10 text-lg font-medium`}>
   {["Home", "About", "Skills", "Projects", "Contact"].map((item) => (
     <li key={item}>
       <Link
