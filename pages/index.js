@@ -282,7 +282,7 @@ export default function Home() {
           transition={{ duration: 1, delay: 0.7 }}
           className={`max-w-3xl mt-6 text-xl font-medium text-center ${darkMode ? "text-gray-300" : "text-gray-800"}`}
         >
-          I am a Software Engineer graduated student From Sri Lanka Institute Of Information Technology ( SLIIT ) . I'm ready to explore and contribute in various domains. 
+          I am a Software Engineer graduated  From Sri Lanka Institute Of Information Technology ( SLIIT ) . I'm ready to explore and contribute in various domains. 
           Whether it's software development, data analysis, or artificial intelligence, I am eager to tackle new challenges and make a positive impact.
         </motion.p>
 
