@@ -355,7 +355,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className={`${darkMode ? "bg-gray-90" : "bg-gray-10"} `} >
+      <section id="projects" className="bg-gray-10" >
       <div className="px-6 mx-auto max-w-7xl">
       <h2 className={`mb-2 ${darkMode ? "text-[#38534f]" : "text-violet-500"} font`}>PROJECTS</h2>
       <h1 className={`mt-2 ${darkMode ? "text-white" : "text-black"} text-4xl font-bold`}>What I did</h1><br/><br/>
