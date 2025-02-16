@@ -422,7 +422,7 @@ export default function Home() {
 
 
       {/* Contact Section */}
-  <section id="contact"  className={`${darkMode ? "bg-gray-90" : "bg-gray-20"}py-16 text-white`}>
+  <section id="contact"  className={`${darkMode ? "bg-gray-90" : "bg-gray-20"} text-white`}>
   <div className="max-w-7xl mx-auto px-6">
     {/* Title Section */}
     <h2 className={`mb-2 ${darkMode ? "text-[#38534f]" : "text-violet-500"} font`}>Contact</h2>
@@ -437,7 +437,7 @@ export default function Home() {
     {/* Contact Card */}
     <div className="flex justify-center space-x-10">
       
-      <div className={`${darkMode ? "bg-white" : "bg-gray-800"} rounded-lg shadow-lg w-full md:w-96 p-8`}>
+      <div className={`${darkMode ? "bg-gray-90" : "bg-gray-100"} rounded-lg shadow-lg w-full md:w-96 p-8`}>
         <div className="flex justify-center mb-6">
           <img 
             src="./cont.jpg" 
