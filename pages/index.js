@@ -358,7 +358,7 @@ export default function Home() {
       <section id="projects" className="py-20 bg-gray-20 dark:bg-gray-90">
       <div className="px-6 mx-auto max-w-7xl">
       <h2 className={`mb-2 ${darkMode ? "text-[#38534f]" : "text-violet-500"} font`}>PROJECTS</h2>
-      <h1 className={`mb-12 ${darkMode ? "text-white" : "text-black"}text-4xl font-bold text-gray-900 dark:text-white`}>What I did</h1>
+      <h1 className={`mt-2 ${darkMode ? "text-white" : "text-black"} text-4xl font-bold`}>What I did</h1>
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project, idx) => (
             <div
@@ -426,7 +426,7 @@ export default function Home() {
   <div className="max-w-7xl mx-auto px-6">
     {/* Title Section */}
     <h2 className={`mb-2 ${darkMode ? "text-[#38534f]" : "text-violet-500"} font`}>Contact</h2>
-    <h1 className={`mt-2 ${darkMode ? "text-white" : "text-black"} mb-12 text-4xl font-bold text-gray-900 dark:text-white`}>Let’s Connect</h1>
+    <h1 className={`mt-2 ${darkMode ? "text-white" : "text-black"} text-4xl font-bold`}>Let’s Connect</h1>
     <div className="text-center mb-12">
     
       <p className={`mt-4 ${darkMode ? "text-white" : "text-black"} text-xl text-lg max-w-2xl mx-auto `}>
