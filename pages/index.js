@@ -355,7 +355,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20 bg-gray-20 dark:bg-gray-90">
+      <section id="projects" className={`${darkMode ? "bg-gray-90" : "bg-gray-20"}py-20 `} >
       <div className="px-6 mx-auto max-w-7xl">
       <h2 className={`mb-2 ${darkMode ? "text-[#38534f]" : "text-violet-500"} font`}>PROJECTS</h2>
       <h1 className={`mt-2 ${darkMode ? "text-white" : "text-black"} text-4xl font-bold`}>What I did</h1>
@@ -422,7 +422,7 @@ export default function Home() {
 
 
       {/* Contact Section */}
-  <section id="contact" className=" py-16 text-white">
+  <section id="contact"  className={`${darkMode ? "bg-gray-90" : "bg-gray-20"}py-16 text-white`}>
   <div className="max-w-7xl mx-auto px-6">
     {/* Title Section */}
     <h2 className={`mb-2 ${darkMode ? "text-[#38534f]" : "text-violet-500"} font`}>Contact</h2>
