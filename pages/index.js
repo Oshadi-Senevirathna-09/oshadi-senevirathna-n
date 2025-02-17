@@ -453,7 +453,7 @@ export default function Home() {
           I'm looking forward to connecting with professionals and discussing new opportunities. Whether it’s about collaboration, technology, or innovative projects, let’s talk!
         </p>
 
-        <p className="text-black dark:text-white font-semibold text-center mb-6">
+        <p className={`text-black dark:text-white font-semibold text-center mb-6`}>
           Open to Work
         </p>
 
