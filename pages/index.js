@@ -446,14 +446,14 @@ export default function Home() {
           />
         </div>
 
-        <h2 className={`text-black dark:text-white text-3xl font-semibold text-center mb-4`}>
+        <h2 className={`${darkMode ? "text-white" : "text-black"} text-3xl font-semibold text-center mb-4`}>
           Oshadi Senevirathna
         </h2>
-        <p className={`text-black dark:text-white text-center mb-6`}>
+        <p className={`${darkMode ? "text-white" : "text-black"} text-center mb-6`}>
           I'm looking forward to connecting with professionals and discussing new opportunities. Whether it’s about collaboration, technology, or innovative projects, let’s talk!
         </p>
 
-        <p className={`text-black dark:text-white font-semibold text-center mb-6`}>
+        <p className={`${darkMode ? "text-white" : "text-black"} font-semibold text-center mb-6`}>
           Open to Work
         </p>
 
