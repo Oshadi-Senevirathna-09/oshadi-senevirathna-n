@@ -273,7 +273,7 @@ export default function Home() {
           transition={{ duration: 1, delay: 0.5 }}
           className={`mt-2 text-3xl font-semibold ${darkMode ? "text-gray-300" : "text-gray-800"}`}
         >
-          A Student of Computer Science
+          Software Engineer Graguated
         </motion.h2><br/>
 
         <motion.p
@@ -296,7 +296,7 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/oshadi-senevirathna-91b182244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="p-3 transition bg-white rounded-full shadow-lg hover:bg-purple-300 hover:text-white-500">
             <FaLinkedin className="text-2xl text-gray-500" />
           </a>
-          <a href="https://github.com/NindukiAbeyrathne" target="_blank" rel="noopener noreferrer" className="p-3 transition bg-white rounded-full shadow-lg hover:bg-purple-300 hover:text-white-500">
+          <a href="https://github.com/it21096884" target="_blank" rel="noopener noreferrer" className="p-3 transition bg-white rounded-full shadow-lg hover:bg-purple-300 hover:text-white-500">
             <FaGithub className="text-2xl text-gray-500" />
           </a>
           <a href="mailto:oshadi@gmail.com" className="p-3 transition bg-white rounded-full shadow-lg hover:bg-purple-300 hover:text-white-500">
@@ -446,10 +446,10 @@ export default function Home() {
           />
         </div>
 
-        <h2 className={`text-black dark:text-whitetext-3xl font-semibold text-center mb-4`}>
+        <h2 className={`text-black dark:text-white text-3xl font-semibold text-center mb-4`}>
           Oshadi Senevirathna
         </h2>
-        <p className={`text-black dark:text-whitetext-center mb-6`}>
+        <p className={`text-black dark:text-white text-center mb-6`}>
           I'm looking forward to connecting with professionals and discussing new opportunities. Whether it’s about collaboration, technology, or innovative projects, let’s talk!
         </p>
 
