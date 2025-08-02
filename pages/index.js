@@ -205,14 +205,14 @@ export default function Home() {
      {
         title: "Real Time Chat Application",
         description: "Developed a Real time chat application using socket.io and MERN Stack, This is a chat application that enables the chat functionality to the users to use to communicate with each other",
-        github: "https://github.com/it21096884/Real-Time-Chat-App",
+        github: "https://github.com/Oshadi-Senevirathna-09/Real-Time-Chat-App",
         
         
     },
      {
         title: "Rain-Fall Recommendation System",
         description: "Developed using random forest classifier with hyperparameter tuning to recomemnd the rain based on the data",
-        github: "https://github.com/it21096884/Rain_fall_recommondation",
+        github: "https://github.com/Oshadi-Senevirathna-09/Rain_fall_recommondation",
         
         
     },
@@ -220,14 +220,14 @@ export default function Home() {
         title: "Glow Up - Salon Management App",
         description: "A Flutter mobile app with a React backend that enhances salon operations. Features include customer feedback analysis, hair damage identification, and AI-powered makeup recommendations.",
         github: "https://github.com/NindukiAbeyrathne/Glowguide-R24-070",
-        website:"https://it21096884.github.io/GlowUp/",
+        website:"https://Oshadi-Senevirathna-09.github.io/GlowUp/",
         research: "https://www.researchgate.net/publication/388428820_GlowUp_-_Enhancing_Salon_Experience_through_AI-Driven_Customer_Insights?_sg%5B0%5D=NUQtH3No6BrJ8RlQynQo3xAMw1iM-gJFYkOt0mO2cklFQ4yyfp76nsGRzLBa_Qr-moaR5t-0SJM5b-FRPVGwQElhoeMIrKPbMlbpfFxc.9G-bpVKrdEatjxhxIT3Zs125SliXpFlixrq6XPDwRhGQ2B18hFrZ0Uu5Qn5y1CwDgQNa4_W5WY8hWMqeYhfl_Q&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InByb2ZpbGUiLCJwcmV2aW91c1BhZ2UiOiJwcm9maWxlIiwicG9zaXRpb24iOiJwYWdlQ29udGVudCJ9fQ"
     },
     {
       title: "Facial Diagnosis & Makeup Recommendation",
       description: "An AI-powered model that detects facial deformities and recommends personalized makeup solutions. Published research in the IEEE-indexed ICAC conference.",
       github: "https://github.com/NindukiAbeyrathne/Glowguide-R24-070",
-      website:"https://it21096884.github.io/GlowUp/",
+      website:"https://Oshadi-Senevirathna-09.github.io/GlowUp/",
       research: "https://www.researchgate.net/publication/388441756_Facial_Diagnosis_Skin_Care_and_Makeup_Recommendation_Using_Advanced_Deep_Learning_Techniques?_sg%5B0%5D=NUQtH3No6BrJ8RlQynQo3xAMw1iM-gJFYkOt0mO2cklFQ4yyfp76nsGRzLBa_Qr-moaR5t-0SJM5b-FRPVGwQElhoeMIrKPbMlbpfFxc.9G-bpVKrdEatjxhxIT3Zs125SliXpFlixrq6XPDwRhGQ2B18hFrZ0Uu5Qn5y1CwDgQNa4_W5WY8hWMqeYhfl_Q&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InByb2ZpbGUiLCJwcmV2aW91c1BhZ2UiOiJwcm9maWxlIiwicG9zaXRpb24iOiJwYWdlQ29udGVudCJ9fQ"
     },
     {
@@ -243,12 +243,12 @@ export default function Home() {
     {
         title: "Online Employee Management System",
         description: "A Java-based system with MVC architecture for managing employee payments and records.",
-        github: "https://github.com/it21096884/Employee-Management-System"
+        github: "https://github.com/Oshadi-Senevirathna-09/Employee-Management-System"
     },
     {
         title: "Online Vehicle Management System",
         description: "Developed a vehicle management system using HTML, JavaScript, and SQL for handling rental and payment processes.", 
-        github: "https://github.com/it21096884/Online-Vehicle-Management-System"
+        github: "https://github.com/Oshadi-Senevirathna-09/Online-Vehicle-Management-System"
     }
   ];
 
@@ -310,7 +310,7 @@ export default function Home() {
           <a href="https://www.linkedin.com/in/oshadi-senevirathna-91b182244?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="p-3 transition bg-white rounded-full shadow-lg hover:bg-purple-300 hover:text-white-500">
             <FaLinkedin className="text-2xl text-gray-500" />
           </a>
-          <a href="https://github.com/it21096884" target="_blank" rel="noopener noreferrer" className="p-3 transition bg-white rounded-full shadow-lg hover:bg-purple-300 hover:text-white-500">
+          <a href="https://github.com/Oshadi-Senevirathna-09" target="_blank" rel="noopener noreferrer" className="p-3 transition bg-white rounded-full shadow-lg hover:bg-purple-300 hover:text-white-500">
             <FaGithub className="text-2xl text-gray-500" />
           </a>
           <a href="mailto:oshadi@gmail.com" className="p-3 transition bg-white rounded-full shadow-lg hover:bg-purple-300 hover:text-white-500">
@@ -476,7 +476,7 @@ export default function Home() {
             className="p-3 text-indigo-500 transition duration-300 transform bg-transparent border-2 border-indigo-500 rounded-full hover:text-indigo-700 hover:scale-105">
             <FaLinkedin className="w-6 h-6" />
           </a>
-          <a href="https://github.com/it21096884" 
+          <a href="https://github.com/Oshadi-Senevirathna-09" 
             className="p-3 text-gray-400 transition duration-300 transform bg-transparent border-2 border-gray-100 rounded-full hover:text-gray-200 hover:scale-105">
             <FaGithub className="w-6 h-6 " />
           </a>
